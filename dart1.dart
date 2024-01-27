@@ -9,7 +9,6 @@ Identifiers are naem of the variables
 =>starts should be alphabet,$,_
 => successive underscore is not allowed
  */
-
 var a=23;
 var b="sumanth";
 void fun(){

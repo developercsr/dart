@@ -37,12 +37,16 @@ void main1(){
     inn=10;
     print(inn);
     mm();
+    kk();
 }
 var de;
 mm(){
   print(de);//The value will be NULL
 }
-
-//final key word
-
+//final key word an d constant keywords are used to declare constants which can't be changes later
 final ab=12;
+const bc ="omero";
+void kk(){
+  print(ab);
+  print(bc);
+}

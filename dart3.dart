@@ -60,7 +60,7 @@ p5()
   print("DATA TYPE CHECKING OPERATORS");
   print(var1 is String);
   print(var2 is String);
-  //var1 as String; ============================================================================> DOUBT
+  //var1 as String; ===========================================================================> DOUBT
   print(var1 is String);
   print(var2 is! String);
   p6();

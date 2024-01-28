@@ -1,6 +1,4 @@
 //sets
-import 'dart2.dart';
-
 var abc=<int> {};
 Set<int> string1={};
 void main()
@@ -35,9 +33,4 @@ void main()
   ///last
   ///isEmpty
   ///isNotEmpty
-
-  
-  
-  
-
 }

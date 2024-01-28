@@ -7,14 +7,13 @@ void main()
   var a=[1,2,3,4,5,6,7];
   print(a);
   //Fixed length Lists Creation
-  var l1=new List(10);
-  l1=[0,1,2,3,4,5,6,7,8,9];
+  List<int> l1=[0,1,2,3,4,5,6,7,8,9];
   print(l1);
   //Growable List
   var l2=[1,2,3,4];
   print(l2);
   //OR ANOTHER METHOD
-  List<int> l3= List<int>();
+List<int> l3 = [0];
   l3.add(1);
   l3.add(11);
   print(l3);
@@ -24,7 +23,7 @@ void main()
   print(l1.length);
   print(l1.last);
   print(l1.reversed);
-  print(l1.single);
+  //print(l1.single);
   l3.addAll([1,2,3,4,5,6]);
   print(l3);
   l3.insert(23,6);
@@ -33,7 +32,7 @@ void main()
   print(l3);
   l3[2]=100;
   print(l3);
-  l3.replaceRange(1,3,[0,0]);
+  l3.replaceRange(1,2,[0,0]);
   print(l3);
   l3.remove(2);
   l3.removeAt(4);
